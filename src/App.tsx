@@ -1,5 +1,3 @@
-import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import Nature_Wildlife_Portfolio from "./pages/Nature_Wildlife_Portfolio";
 import Landscape_Portfolio from "./pages/Landscape_Portolio";
