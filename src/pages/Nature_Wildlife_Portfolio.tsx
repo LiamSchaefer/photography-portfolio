@@ -159,6 +159,10 @@ function Nature_Wildlife_Portfolio() {
           src={require("../assets/nature_pictures/Wildpark Poing-7-min.jpg")}
           alt=""
         />
+        <img
+          src={require("../assets/nature_pictures/Augsburg Siebentischwald-17-min.jpg")}
+          alt=""
+        />
       </div>
     </div>
   );
