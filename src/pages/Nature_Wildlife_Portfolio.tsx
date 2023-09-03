@@ -7,7 +7,7 @@ function Nature_Wildlife_Portfolio() {
       <h1>Wild Life and Nature</h1>
       <div className="img-container">
         <img
-          src={require("../assets/forest_pictures/Augsburg Siebentischwald-29-min.jpg")}
+          src={require("../assets/forest_pictures/Augsburg Siebentischwald-29.jpg")}
           alt=""
         />
         <img
@@ -43,23 +43,24 @@ function Nature_Wildlife_Portfolio() {
           alt=""
         />
         <img
-          src={require("../assets/forest_pictures/Westliche Wälder-1-min.jpg")}
+          src={require("../assets/forest_pictures/Westliche Wälder-3-min.jpg")}
           alt=""
           style={{ width: "600px", height: "450px" }}
         />
         <img
           src={require("../assets/forest_pictures/Westliche Wälder-5-min.jpg")}
           alt=""
+          style={{ width: "320px", height: "450px" }}
         />
         <img
           src={require("../assets/forest_pictures/Westliche Wälder-7-min.jpg")}
           alt=""
         />
-        <img src={require("../assets/forest_pictures/efeu.jpg")} alt="" />
-        <img src={require("../assets/forest_pictures/Forest1.JPG")} alt="" />
-        <img src={require("../assets/forest_pictures/Forest2.JPG")} alt="" />
+        <img src={require("../assets/forest_pictures/efeu-min.jpg")} alt="" />
+        <img src={require("../assets/forest_pictures/Forest1.jpg")} alt="" />
+        <img src={require("../assets/forest_pictures/Forest2.jpg")} alt="" />
         <img
-          src={require("../assets/forest_pictures/plant with raindrop.jpg")}
+          src={require("../assets/forest_pictures/plant with raindrop-min.jpg")}
           alt=""
         />
         <img
@@ -85,7 +86,7 @@ function Nature_Wildlife_Portfolio() {
           style={{ width: "450px", height: "450px" }}
         />
         <img
-          src={require("../assets/landscapes/Eibsee-4.png")}
+          src={require("../assets/landscapes/Eibsee-4.jpg")}
           alt=""
           style={{ width: "550px", height: "450px" }}
         />
@@ -114,7 +115,7 @@ function Nature_Wildlife_Portfolio() {
           alt=""
         />
         <img
-          src={require("../assets/nature_pictures/flowers/Blume 5.JPG")}
+          src={require("../assets/nature_pictures/flowers/Blume 5.jpg")}
           alt=""
         />
         <img
