@@ -1,5 +1,5 @@
 import React from "react";
-import "./landscape-portfolio.css";
+import "./portfolio-pages.css";
 
 function LandscapePortfolio() {
   return (

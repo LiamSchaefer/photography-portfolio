@@ -1,5 +1,5 @@
 import React from "react";
-import "./nature-forest-portfolio.css";
+import "./portfolio-pages.css";
 
 function NatureForestPortfolio() {
   return (

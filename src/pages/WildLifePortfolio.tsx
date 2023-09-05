@@ -1,5 +1,5 @@
 import React from "react";
-import "./wild-life-portfolio.css";
+import "./portfolio-pages.css";
 
 function WildLifePortfolio() {
   return (
@@ -17,10 +17,17 @@ function WildLifePortfolio() {
           <img
             src={require("../assets/wild_life_pictures/Grass Hopper2-min.png")}
             alt=""
+            style={{ width: 430, height: 450 }}
+          />
+          <img
+            src={require("../assets/wild_life_pictures/Spider 1-min.jpg")}
+            alt=""
+            style={{ width: 450, height: 450 }}
           />
           <img
             src={require("../assets/wild_life_pictures/Schmetterling 1.jpg")}
             alt=""
+            style={{ width: 550, height: 450 }}
           />
         </div>
       </div>
@@ -68,23 +75,32 @@ function WildLifePortfolio() {
           alt=""
         />
         <img
-          src={require("../assets/wild_life_pictures/Wattenmeer-15-min.jpg")}
-          alt=""
-        />
-        <img
           src={require("../assets/wild_life_pictures/Wattenmeer-21-min.jpg")}
           alt=""
         />
         <img
           src={require("../assets/wild_life_pictures/Wattenmeer-4-min.jpg")}
           alt=""
+          style={{ width: 550, height: 450 }}
+        />
+        <img
+          src={require("../assets/wild_life_pictures/Durum-17-min.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/wild_life_pictures/Durum-22-min.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/wild_life_pictures/Wremen-3-min.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/wild_life_pictures/Wattenmeer-15-min.jpg")}
+          alt=""
+          style={{ width: 650, height: 450 }}
         />
       </div>
-      {/*   <img
-            src={require("../assets/landscapes/Eibsee-15.jpg")}
-            alt=""
-            style={{ width: "600px", height: "450px" }}
-          /> */}
     </div>
   );
 }

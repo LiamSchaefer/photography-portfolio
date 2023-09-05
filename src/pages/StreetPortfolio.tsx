@@ -1,4 +1,5 @@
 import React from "react";
+import "./portfolio-pages.css";
 
 function StreetPortfolio() {
   return (
@@ -14,27 +15,35 @@ function StreetPortfolio() {
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Schaufenster Reflection-min.jpg")}
-          alt=""
-        />
-        <img
           src={require("../assets/street_photos/Street Ausgburg-27-min.jpg")}
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-17-min.jpg")}
+          src={require("../assets/street_photos/Schaufenster Reflection-min.jpg")}
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-20-min.jpg")}
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-17-mi.jpg")}
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-21-min.jpg")}
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-20-mi.jpg")}
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-26-min.jpg")}
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-21-mi.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-26-mi.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-63-mi.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-69-mi.jpg")}
           alt=""
         />
         <img
@@ -42,27 +51,15 @@ function StreetPortfolio() {
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-59-min.jpg")}
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-59-mi.jpg")}
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-64-min.jpg")}
+          src={require("../assets/street_photos/Street Stadt Wald Augsburg-73-mi.jpg")}
           alt=""
         />
         <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-69-min.jpg")}
-          alt=""
-        />
-        <img
-          src={require("../assets/street_photos/Street Stadt Wald Augsburg-73-min.jpg")}
-          alt=""
-        />
-        <img
-          src={require("../assets/street_photos/Streetphoto weniger scharf-34-min.jpg")}
-          alt=""
-        />
-        <img
-          src={require("../assets/street_photos/Streetphoto-27-min.jpg")}
+          src={require("../assets/street_photos/Streetphoto weniger scharf-34-mi.jpg")}
           alt=""
         />
         <img
@@ -70,12 +67,13 @@ function StreetPortfolio() {
           alt=""
         />
         <img
+          src={require("../assets/street_photos/Streetphoto-27-min.jpg")}
+          alt=""
+        />
+        <img
           src={require("../assets/street_photos/Streetphoto-31-min.jpg")}
           alt=""
         />
-        <img src={require("../assets/street_photos/Durum-17-min.jpg")} alt="" />
-        <img src={require("../assets/street_photos/Durum-22-min.jpg")} alt="" />
-        <img src={require("../assets/street_photos/Wremen-3-min.jpg")} alt="" />
       </div>
     </div>
   );
