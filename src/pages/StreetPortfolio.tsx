@@ -3,7 +3,7 @@ import "./portfolio-pages.css";
 
 function StreetPortfolio() {
   return (
-    <div className="container">
+    <div className="container-custom">
       <h1>Street Photos</h1>
       <div className="img-container">
         <img

@@ -5,7 +5,7 @@ import "./navbar.css";
 function Navbar() {
   let location = useLocation();
   return (
-    <nav className="tw-relative tw-flex tw-flex-wrap tw-items-center tw-justify-between tw-px-2 tw-py-3 tw-bg-primary">
+    <nav className="tw-relative tw-flex tw-flex-wrap tw-items-center tw-justify-between tw-px-2 tw-pt-4 tw-pb-1 tw-bg-primary">
       <ul className="tw-list-none tw-flex tw-flex-wrap tw-space-x-6">
         <li>
           <Link

@@ -3,7 +3,7 @@ import "./portfolio-pages.css";
 
 function LandscapePortfolio() {
   return (
-    <div className="container">
+    <div className="container-custom">
       <h1>Landscapes</h1>
       <div className="img-container">
         <img src={require("../assets/landscapes/Eibsee-2.jpg")} alt="" />

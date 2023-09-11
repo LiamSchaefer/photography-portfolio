@@ -3,7 +3,7 @@ import "./portfolio-pages.css";
 
 function NatureForestPortfolio() {
   return (
-    <div className="container">
+    <div className="container-custom">
       <h1>Wild Life and Nature</h1>
       <div>
         <h2>Forest</h2>
