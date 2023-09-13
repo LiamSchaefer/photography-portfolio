@@ -4,7 +4,7 @@ import "./home.css";
 
 function Home() {
   return (
-    <div>
+    <div className="home-container">
       <div>
         {/*   <Image
           src={require("../assets/logo-photography.jpg")}
@@ -13,7 +13,40 @@ function Home() {
         /> */}
         <h1 className="home-headline">Luca Liam Photography</h1>
       </div>
-      <CarouselHome />;
+      <CarouselHome />
+      <div className="home-text-container">
+        <div className="home-about-me-text">
+          <p>Hey my name is Liam and I'm a passionated hobby photographer</p>
+          <p>My journey has begun 2022 where i bought my first camera </p>
+          <p> a Sony a6000 and i still use it.Since then i photographed </p>
+          <p>every thing that comes in front of my lens, but especially </p>
+          <p>
+            the small things in nature and nature itself are very fascinating to
+            me!
+          </p>
+          <p>
+            {" "}
+            I also like urban and street photography, because you never know
+            what
+          </p>
+          <p>
+            {" "}
+            comes next and the best- it's not posed! Maybe I could make you{" "}
+          </p>
+          <p>
+            a little interested in my work, so don't hold back and check out my
+            pictures!
+          </p>
+        </div>
+
+        <div className="home-about-me-img">
+          <img
+            src={require("../assets/me.jpg")}
+            alt=""
+            style={{ width: "600px", height: "400px" }}
+          />
+        </div>
+      </div>
     </div>
   );
 }
