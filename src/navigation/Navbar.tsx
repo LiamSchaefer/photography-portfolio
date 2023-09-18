@@ -5,8 +5,16 @@ import "./navbar.css";
 function Navbar() {
   let location = useLocation();
   return (
-    <nav className="tw-relative tw-flex tw-flex-wrap tw-items-center tw-justify-between tw-px-2 tw-pt-4 tw-pb-1 tw-bg-primary">
-      <ul className="tw-list-none tw-flex tw-flex-wrap tw-space-x-6">
+    <nav className="tw-relative tw-flex tw-flex-wrap tw-items-center tw-px-2 tw-pt-4 tw-pb-1 tw-bg-primary">
+      <div className="tw-px-2 tw-pb-3 ">
+        <img
+          src={require("../assets/Logo Wasserzeichen Weiß Logo Links.png")}
+          alt=""
+          style={{ height: "100%", width: "300px", display: "inline-flex" }}
+        />
+      </div>
+
+      <ul className="tw-list-none tw-flex tw-flex-wrap tw-space-x-6 tw-mt-1">
         <li>
           <Link
             className={`${
