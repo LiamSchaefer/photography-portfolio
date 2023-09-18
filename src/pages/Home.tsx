@@ -1,5 +1,4 @@
 import CarouselHome from "../components/Carousel";
-import Image from "react-bootstrap/Image";
 import "./home.css";
 
 function Home() {
@@ -16,13 +15,17 @@ function Home() {
       <CarouselHome />
       <div className="home-text-container">
         <div className="home-about-me-text">
-          <p>Hey my name is Liam and I'm a passionated hobby photographer</p>
+          <p>Hey my name is Liam</p>
+          <p>I'm a passionated hobby photographer</p>
           <p>My journey has begun 2022 where i bought my first camera </p>
-          <p> a Sony a6000 and i still use it.Since then i photographed </p>
-          <p>every thing that comes in front of my lens, but especially </p>
+          <p>a Sony a6000 and i still use it until today.</p>
           <p>
-            the small things in nature and nature itself are very fascinating to
-            me!
+            Since then i photographed every thing that comes in front of my
+            lens,
+          </p>
+          <p>
+            but especially the small things in nature and nature itself are very
+            fascinating to me!
           </p>
           <p>
             {" "}
