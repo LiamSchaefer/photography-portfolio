@@ -3,9 +3,8 @@ import NatureForestPortfolio from "./pages/NatureForestPortfolio";
 import LandscapePortfolio from "./pages/LandscapePortolio";
 import StreetPortfolio from "./pages/StreetPortfolio";
 import WildLifePortfolio from "./pages/WildLifePortfolio";
-import { Route, BrowserRouter, Routes } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import Navbar from "./navigation/Navbar";
 import NavbarMui from "./navigation/NavbarMui";
 
 function App() {
