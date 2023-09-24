@@ -74,6 +74,18 @@ function StreetPortfolio() {
           src={require("../assets/street_photos/Streetphoto-31-min.jpg")}
           alt=""
         />
+        <img
+          src={require("../assets/street_photos/Street Ausgburg-13 (1).jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/street_photos/Augsburg Stadt 1 (1).jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/street_photos/Augsburg Stadt Statue 2 (1).jpg")}
+          alt=""
+        />
       </div>
     </div>
   );

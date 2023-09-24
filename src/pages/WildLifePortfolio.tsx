@@ -13,6 +13,7 @@ function WildLifePortfolio() {
           <img
             src={require("../assets/wild_life_pictures/Grass Hopper1-min.png")}
             alt=""
+            style={{ width: 430, height: 450 }}
           />
           <img
             src={require("../assets/wild_life_pictures/Grass Hopper2-min.png")}
@@ -27,7 +28,7 @@ function WildLifePortfolio() {
           <img
             src={require("../assets/wild_life_pictures/Schmetterling 1.jpg")}
             alt=""
-            style={{ width: 550, height: 450 }}
+            style={{ width: 780, height: 650 }}
           />
         </div>
       </div>
@@ -42,10 +43,6 @@ function WildLifePortfolio() {
         />
         <img
           src={require("../assets/wild_life_pictures/Wildpark Poing-12-min.jpg")}
-          alt=""
-        />
-        <img
-          src={require("../assets/wild_life_pictures/Wildpark Poing-15-min.jpg")}
           alt=""
         />
         <img

@@ -6,6 +6,7 @@ import WildLifePortfolio from "./pages/WildLifePortfolio";
 import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import NavbarMui from "./navigation/NavbarMui";
+import Footer from "./components/footer/Footer";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route path="/street-portfolio" element={<StreetPortfolio />} />
         <Route path="/wild-life-portfolio" element={<WildLifePortfolio />} />
       </Routes>
+      <Footer />
     </div>
   );
 }
