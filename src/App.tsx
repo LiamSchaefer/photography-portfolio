@@ -6,11 +6,12 @@ import WildLifePortfolio from "./pages/WildLifePortfolio";
 import { Route, BrowserRouter, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import Navbar from "./navigation/Navbar";
+import NavbarMui from "./navigation/NavbarMui";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
+      <NavbarMui />
       <Routes>
         <Route index element={<Home />} />
         <Route path="/landscape-portfolio" element={<LandscapePortfolio />} />

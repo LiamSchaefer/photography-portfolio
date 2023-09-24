@@ -15,8 +15,10 @@ function Home() {
       <CarouselHome />
       <div className="home-text-container">
         <div className="home-about-me-text">
-          <p>Hey my name is Liam</p>
-          <p>I'm a passionated hobby photographer</p>
+          <p className="about-me-text-bigger">Hey my name is Liam</p>
+          <p className="about-me-text-bigger">
+            I'm a passionated hobby photographer
+          </p>
           <p>My journey has begun 2022 where i bought my first camera </p>
           <p>a Sony a6000 and i still use it until today.</p>
           <p>
@@ -34,11 +36,14 @@ function Home() {
           </p>
           <p>
             {" "}
-            comes next and the best- it's not posed! Maybe I could make you{" "}
+            comes next and the best- it's not posed! Maybe I could make you
           </p>
           <p>
-            a little interested in my work, so don't hold back and check out my
-            pictures!
+            a little interested in my work,
+            <span className="about-me-text-highlighted">
+              {" "}
+              so don't hold back and check out my pictures!{" "}
+            </span>
           </p>
         </div>
 
