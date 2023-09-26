@@ -3,7 +3,7 @@ import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import Link from "@mui/material/Link";
 import Grid from "@mui/material/Grid";
-import { Facebook, Instagram, Twitter } from "@mui/icons-material";
+import { Facebook, GitHub, Instagram } from "@mui/icons-material";
 import { Box } from "@mui/material";
 
 export default function Footer() {
@@ -12,29 +12,19 @@ export default function Footer() {
       component="footer"
       sx={{
         backgroundColor: "#183D3D",
-        p: 6,
         color: "white",
+        p: 4,
       }}
     >
       <Container maxWidth="lg">
         <Grid container spacing={5}>
-          <Grid item xs={12} sm={4}>
-            <Typography variant="h6" color="white" gutterBottom>
-              About Us
-            </Typography>
-            <Typography variant="body2" color="white">
-              We are XYZ company, dedicated to providing the best service to our
-              customers.
-            </Typography>
-          </Grid>
-          <Grid item xs={12} sm={4}></Grid>
-          <Grid item xs={12} sm={4}>
+          <Grid paddingTop={8} justifyContent="flex-end">
             <Typography variant="h6" color="white" gutterBottom>
               You wanna see more?
             </Typography>
-            <Link href="https://www.facebook.com/" color="inherit">
+            {/*   <Link href="https://www.facebook.com/" color="inherit">
               <Facebook />
-            </Link>
+            </Link> */}
             <Link
               href="https://www.instagram.com/luca_liam.photography"
               color="inherit"
@@ -42,8 +32,8 @@ export default function Footer() {
             >
               <Instagram />
             </Link>
-            <Link href="https://www.twitter.com/" color="inherit">
-              <Twitter />
+            <Link href="https://github.com/LiamSchaefer" color="inherit">
+              <GitHub />
             </Link>
           </Grid>
         </Grid>

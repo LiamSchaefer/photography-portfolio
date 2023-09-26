@@ -1,5 +1,6 @@
 {
   "name": "photography-portfolio",
+  "homepage": "https://luca-liam-photography.de/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

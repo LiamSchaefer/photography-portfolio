@@ -13,7 +13,7 @@ function App() {
     <div className="App">
       <NavbarMui />
       <Routes>
-        <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/landscape-portfolio" element={<LandscapePortfolio />} />
         <Route
           path="/nature-forest-portfolio"
