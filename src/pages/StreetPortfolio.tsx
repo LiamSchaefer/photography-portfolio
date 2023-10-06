@@ -86,6 +86,44 @@ function StreetPortfolio() {
           src={require("../assets/street_photos/Augsburg Stadt Statue 2 (1).jpg")}
           alt=""
         />
+        <div>
+          <h1>Street & urban photos at night</h1>
+        </div>
+        <div className="img-container">
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-1.jpg")}
+            alt=""
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-12.jpg")}
+            alt=""
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-13.jpg")}
+            alt=""
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-14.jpg")}
+            alt=""
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-5.jpg")}
+            alt=""
+            style={{ width: 710, height: 450 }}
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-6.jpg")}
+            alt=""
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-7.jpg")}
+            alt=""
+          />
+          <img
+            src={require("../assets/street_photos/plärrer/Plärrer-9.jpg")}
+            alt=""
+          />
+        </div>
       </div>
     </div>
   );

@@ -100,6 +100,26 @@ function NatureForestPortfolio() {
           src={require("../assets/forest_and_nature_pictures/Westliche Wälder-9-min.jpg")}
           alt=""
         />
+        <img
+          src={require("../assets/forest_and_nature_pictures/fischach/Wanderung Winter-11.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/forest_and_nature_pictures/fischach/Wanderung Winter-5.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/forest_and_nature_pictures/fischach/Wanderung Winter-12.jpg")}
+          alt=""
+        />
+        <img
+          src={require("../assets/forest_and_nature_pictures/fischach/Wanderung Winter-9.jpg")}
+          alt=""
+        />
+        {/*  <img
+          src={require("../assets/forest_and_nature_pictures/fischach/Wanderung Winter-3.jpg")}
+          alt=""
+        /> */}
       </div>
 
       <div>

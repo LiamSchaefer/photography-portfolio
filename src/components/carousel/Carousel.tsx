@@ -18,7 +18,7 @@ function ControlledCarousel() {
             width: "100%",
             objectFit: "cover",
             height: "700px",
-            filter: "brightness(70%)",
+            filter: "brightness(60%)",
           }}
           alt=""
         />
@@ -26,6 +26,10 @@ function ControlledCarousel() {
           <h1>Welcome to my photography world</h1>
           <p className="text-carousel-big">
             where you can find landscape photos...
+          </p>
+          <p className="text-carousel-smaller">
+            ~The mind is never more highly gratified than in contemplating a
+            natural landscape~
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -47,7 +51,7 @@ function ControlledCarousel() {
               All around the nature and its animals, flowers and the smallest
               inhabitants.{" "}
             </p>
-            <p className="text-carousel-big">
+            <p className="text-carousel-smaller">
               ~Sometimes the smallest things in life are the most beautiful~
             </p>
           </div>
@@ -55,7 +59,7 @@ function ControlledCarousel() {
       </Carousel.Item>
       <Carousel.Item>
         <img
-          src={require("../../assets/carousel_pictures/F0589CC2-7AD0-4CC6-9271-DA33A894 (1).jpg")}
+          src={require("../../assets/carousel_pictures/Plärrer-5.jpg")}
           style={{
             width: "100%",
             objectFit: "cover",
@@ -67,7 +71,11 @@ function ControlledCarousel() {
         <Carousel.Caption>
           <h1>Street & Urban Photography</h1>
           <p className="text-carousel-big">
-            See cities from another perspective.
+            See cities from another perspective
+          </p>
+          <p className="text-carousel-smaller">
+            ~In the city, you never know what you'll find around the next
+            corner~
           </p>
         </Carousel.Caption>
       </Carousel.Item>
@@ -88,8 +96,31 @@ function ControlledCarousel() {
             All around animals both the small and large ones.
           </p>
           <p className="text-carousel-smaller">
-            Here, for example, you can see insects in such detail that the naked
-            eye could never see them.
+            ~Each species is a masterpiece, a creation assembled with extreme
+            care and genius.~
+          </p>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img
+          src={require("../../assets/carousel_pictures/Wanderung Winter-8.jpg")}
+          style={{
+            width: "100%",
+            objectFit: "cover",
+            height: "700px",
+            filter: "brightness(50%)",
+          }}
+          alt=""
+        />
+        <Carousel.Caption>
+          <h1>Forest Pictures</h1>
+          <p className="text-carousel-big">
+            find pictures from the beautiful vegetation and forests in different
+            seasons
+          </p>
+          <p className="text-carousel-smaller">
+            ~I enjoy an easy walk in the forest with my own thoughts, I can
+            escape from the world for a bit~
           </p>
         </Carousel.Caption>
       </Carousel.Item>
