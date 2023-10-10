@@ -4,14 +4,9 @@ import "./home.css";
 function Home() {
   return (
     <div className="home-container">
-      <div style={{ height: "70px", width: "100%", backgroundColor: "040D12" }}>
-        {/*   <img
-          src={require("../assets/Logo Wasserzeichen Weiß Logo Links.png")}
-          alt=""
-          style={{ height: "100%", width: "300px" }}
-        /> */}
-        {/* <h1 className="home-headline">Luca Liam Photography</h1> */}
-      </div>
+      <div
+        style={{ height: "70px", width: "100%", backgroundColor: "040D12" }}
+      ></div>
       <CarouselHome />
       <div className="home-text-container">
         <div className="home-about-me-text">

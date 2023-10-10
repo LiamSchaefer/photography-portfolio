@@ -63,7 +63,12 @@ function ResponsiveAppBar() {
             />
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: { xs: "flex", md: "none" },
+            }}
+          >
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -93,9 +98,19 @@ function ResponsiveAppBar() {
               }}
             >
               {pages.map((page) => (
-                <MenuItem key={page.pageName} onClick={handleCloseNavMenu}>
-                  <Typography textAlign="center">{page.pageName}</Typography>
-                </MenuItem>
+                <Button
+                  key={page.pageName}
+                  href={page.pageLink}
+                  onClick={handleCloseNavMenu}
+                  sx={{
+                    my: 2,
+                    color: "#93B1A6",
+                    display: "block",
+                    ":hover": { color: "white", bgcolor: "#5C8374" },
+                  }}
+                >
+                  {page.pageName}
+                </Button>
               ))}
             </Menu>
           </Box>
