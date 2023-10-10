@@ -9,7 +9,7 @@ function Home() {
       ></div>
       <CarouselHome />
       <div className="home-text-container">
-        <div className="home-about-me-text">
+        <div className="home-about-me-text responsive">
           <p className="about-me-text-bigger">Hey my name is Liam</p>
           <p className="about-me-text-bigger">
             I'm a passionated hobby photographer
@@ -41,14 +41,11 @@ function Home() {
             </span>
           </p>
         </div>
-
-        <div className="home-about-me-img">
-          <img
-            src={require("../assets/me.jpg")}
-            alt=""
-            style={{ width: "600px", height: "400px" }}
-          />
-        </div>
+        <img
+          src={require("../assets/me.jpg")}
+          alt=""
+          style={{ width: "35%", height: "50%" }}
+        />
       </div>
     </div>
   );
