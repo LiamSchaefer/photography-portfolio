@@ -15,6 +15,7 @@ const pages = [
   { pageName: "Landscapes", pageLink: "/landscape-portfolio" },
   { pageName: "Nature & Forest", pageLink: "/nature-forest-portfolio" },
   { pageName: "Wildlife", pageLink: "/wild-life-portfolio" },
+  { pageName: "Highlights & Throwbacks", pageLink: "/highlights" },
 ];
 
 function ResponsiveAppBar() {
@@ -112,6 +113,19 @@ function ResponsiveAppBar() {
                   {page.pageName}
                 </Button>
               ))}
+              <Button
+                key="about-me"
+                href=""
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "#93B1A6",
+                  display: "block",
+                  ":hover": { color: "white", bgcolor: "#5C8374" },
+                }}
+              >
+                About
+              </Button>
             </Menu>
           </Box>
           <Typography
@@ -152,8 +166,42 @@ function ResponsiveAppBar() {
                 {page.pageName}
               </Button>
             ))}
+            <Box
+              sx={{
+                flexGrow: 1,
+                display: {
+                  xs: "none",
+                  md: "flex",
+                  justifyContent: "flex-end",
+                },
+              }}
+            >
+              <Button
+                key="about-me"
+                href=""
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "#93B1A6",
+                  ":hover": { color: "white", bgcolor: "#5C8374" },
+                }}
+              >
+                About
+              </Button>
+              <Button
+                key="contact"
+                href=""
+                onClick={handleCloseNavMenu}
+                sx={{
+                  my: 2,
+                  color: "#93B1A6",
+                  ":hover": { color: "white", bgcolor: "#5C8374" },
+                }}
+              >
+                Contact
+              </Button>
+            </Box>
           </Box>
-
           <Box sx={{ flexGrow: 0 }}>
             <Menu
               sx={{ mt: "45px" }}
