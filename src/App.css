@@ -1,3 +1,11 @@
 .App {
   margin: 0px;
 }
+
+html,
+body {
+  overflow-x: hidden;
+}
+body {
+  position: relative;
+}

@@ -15,7 +15,7 @@ const pages = [
   { pageName: "Landscapes", pageLink: "/landscape-portfolio" },
   { pageName: "Nature & Forest", pageLink: "/nature-forest-portfolio" },
   { pageName: "Wildlife", pageLink: "/wild-life-portfolio" },
-  { pageName: "Highlights & Throwbacks", pageLink: "/highlights" },
+  /* { pageName: "Highlights & Throwbacks", pageLink: "/highlights" }, */
 ];
 
 function ResponsiveAppBar() {
@@ -113,7 +113,7 @@ function ResponsiveAppBar() {
                   {page.pageName}
                 </Button>
               ))}
-              <Button
+              {/*  <Button
                 key="about-me"
                 href=""
                 onClick={handleCloseNavMenu}
@@ -125,7 +125,7 @@ function ResponsiveAppBar() {
                 }}
               >
                 About
-              </Button>
+              </Button> */}
             </Menu>
           </Box>
           <Typography
@@ -176,7 +176,7 @@ function ResponsiveAppBar() {
                 },
               }}
             >
-              <Button
+              {/*  <Button
                 key="about-me"
                 href=""
                 onClick={handleCloseNavMenu}
@@ -187,8 +187,8 @@ function ResponsiveAppBar() {
                 }}
               >
                 About
-              </Button>
-              <Button
+              </Button> */}
+              {/*   <Button
                 key="contact"
                 href=""
                 onClick={handleCloseNavMenu}
@@ -199,7 +199,7 @@ function ResponsiveAppBar() {
                 }}
               >
                 Contact
-              </Button>
+              </Button> */}
             </Box>
           </Box>
           <Box sx={{ flexGrow: 0 }}>

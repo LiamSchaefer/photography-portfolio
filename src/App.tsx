@@ -7,8 +7,19 @@ import { Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import NavbarMui from "./navigation/NavbarMui";
 import Footer from "./components/footer/Footer";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    const handleContextmenu = (e: Event) => {
+      e.preventDefault();
+    };
+    document.addEventListener("contextmenu", handleContextmenu);
+    return function cleanup() {
+      document.removeEventListener("contextmenu", handleContextmenu);
+    };
+  }, []);
+
   return (
     <div className="App">
       <NavbarMui />
